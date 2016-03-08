@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html ng-app>
+
 <head>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" type="text/css" href="bower_components/Materialize/dist/css/materialize.min.css">
-<script type="text/javascript" src="./bower_components/angular/angular.min.js"></script>
-<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
 
-	<title>Angular Email Form</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/Materialize/dist/css/materialize.min.css">
+    <script type="text/javascript" src="./bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+
+    <title>Angular Email Form</title>
 </head>
+
 <body>
 
-<div class="row" style="margin:20px">
-    <form class="col s12">
-      <div class="row">
-      <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate">
-          <label for="first_name"><i class="material-icons">person_pin</i> First Name</label>
-        </div>
-<div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name"><i class="material-icons">person_pin</i> Last Name</label>
-        </div>
-        </div>
-        <div class="row">
-        <div class="input-field col s6">
-          <input id="email" type="email" class="validate">
+    <div class="row" style="margin:20px">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name"><i class="material-icons">person_pin</i> First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name"><i class="material-icons">person_pin</i> Last Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="email" type="email" class="validate">
                     <label for="email" data-error="wrong" data-success="right"><i class="material-icons">email</i> Email</label>
 
-        </div>
-         <div class="input-field col s6">
-          <input id="subject" type="text" class="validate">
-          <label for="subject"><i class="material-icons">subject</i> Subject</label>
-        </div>
-        </div>
-        <div class="row">
-        <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1"><i class="material-icons">comment</i> Message...</label>
-        </div>
-      </div>
-         <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
-    <a class="btn-floating btn-large red">
-      <i class="large material-icons ">play_arrow</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating red"><i class="material-icons"></i></a></li>
-      <li><a class="btn-floating yellow darken-1"><i class="material-icons"></i></a></li>
-      <li><a class="btn-floating green"><i class="material-icons"></i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons"></i></a></li>
-    </ul>
-  </div>
+                </div>
+                <div class="input-field col s6">
+                    <input id="subject" type="text" class="validate">
+                    <label for="subject"><i class="material-icons">subject</i> Subject</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1"><i class="material-icons">comment</i> Message...</label>
+                </div>
+            </div>
+            <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+                <a class="btn-floating btn-large red">
+                    <i class="large material-icons ">toc</i>
+                </a>
+                <ul>
+                    <li><a class="btn-floating red"><i class="material-icons">delete</i></a></li>
+                    <li><a class="btn-floating blue"><i class="fa fa-paperclip"></i></a></li>
+
+                    <li><a class="btn-floating green"><i class="material-icons">done</i></a></li>
+                </ul>
+            </div>
         </form>
-        </div>
+    </div>
 
 </body>
+
 </html>
