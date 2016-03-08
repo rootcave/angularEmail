@@ -1,0 +1,7 @@
+{
+    "name": "angularEmail",
+    "dependencies": {
+        "Materialize": "~0.97.5",
+        "angular": "~1.5.0"
+    }
+}
